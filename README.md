@@ -1,7 +1,7 @@
-# Stereo Matching using Semi-Global Matching
+# Semi-Global Matching (8-direction)
 A Matlab implementation of Semi-Global Matching (SGM) for stereo matching.
-It uses the two-pass 8-directions version of the algorithm with a small improvement for better results.
-The improvement is that in the calculation of the total cost, the matching cost does not add up (normally it had to add up eight times).
+It uses the 8-direction version of the algorithm with a small improvement for better results.
+The improvement is that in the calculation of the total cost, the matching cost does not add up (normally it had to add up once for each direction).
 
 ## Input Image
 The Tsukuba stereo image that used as input.
